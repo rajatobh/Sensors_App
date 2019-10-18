@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">50292004_Obheroi</string>
+    <string name="title_activity_accelerometer_">Accelerometer_Activity</string>
+    
+    <string name="linktosite">
+        <a href="https://www.youtube.com/channel/UCTiWgVtEGSY4cuduJbMPblA">Link to the channel</a>
+    </string>
+
+    <string name="linktosite2">
+        <a href="https://www.youtube.com/channel/UCO0mdq1TnLctbwUGj_TnR7Q">Link to the Channel</a>
+    </string>
+
+    <string name="linktosite3">
+        <a href="https://www.youtube.com/channel/UCTfCl-a8_6aKT_Mdd4HkaUw">Link to the Channel</a>
+    </string>
+    <string name="linktosite4">
+        <a href="https://developer.android.com/studio/intro">Link to Website</a>
+    </string>
+    <string name="linktosite5">
+        <a href="https://www.youtube.com/channel/UCllewj2bGdqB8U9Ld15INAg">Link to the Channel</a>
+    </string>
+    <string name="linktosite6">
+        <a href="https://www.youtube.com/channel/UCDIqyt5j8HOq8pGCkmkJGgw/videos">Link to the Channel</a>
+    </string>
+    <string name="linktosite7">
+        <a href="https://github.com/Hitomis/CircleMenu">Link to Website</a>
+    </string>
+
+</resources>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Magnetometer_Activity"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:id="@+id/second">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAGNETOMETER"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="150sp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/xmag"
+            android:textColor="@android:color/background_light"/>
+        <TextView
+            android:layout_width="150sp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ymag"
+            android:textColor="@android:color/background_light"/>
+        <TextView
+            android:layout_width="150sp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/zmag"
+            android:textColor="@android:color/background_light"/>
+    </LinearLayout>
+</RelativeLayout>

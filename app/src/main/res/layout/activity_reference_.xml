@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reference_Activity"
+    android:layout_marginTop="75dp"
+    android:layout_marginLeft="35dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ref"
+        android:text="REFERENCES"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_below="@+id/ref"
+        android:id="@+id/kgp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. KGP Talkie Youtube channel"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_below="@+id/kgp"
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linktosite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_below="@+id/txt"
+        android:id="@+id/ref1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Phys Whiz Youtube Channel"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ref1"
+        android:text="@string/linktosite2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ref2"
+        android:layout_below="@+id/txt2"
+        android:text="3. Bill Butterfield Youtube Channel"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt3"
+        android:layout_below="@+id/ref2"
+        android:text="@string/linktosite3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ref3"
+        android:layout_below="@id/txt3"
+        android:text="4. Android Studio User Guide"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt4"
+        android:layout_below="@id/ref3"
+        android:text="@string/linktosite4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ref4"
+        android:layout_below="@id/txt4"
+        android:text="5. EDMT DEV Youtube Channel"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt5"
+        android:layout_below="@id/ref4"
+        android:text="@string/linktosite5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ref5"
+        android:layout_below="@id/txt5"
+        android:text="6. Appeteria Technologies Youtube Channel"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt6"
+        android:layout_below="@id/ref5"
+        android:text="@string/linktosite6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ref6"
+        android:layout_below="@id/txt6"
+        android:text="7. Hitomis's Github"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt7"
+        android:layout_below="@id/ref6"
+        android:text="@string/linktosite7"/>
+
+
+</RelativeLayout>
